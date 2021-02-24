@@ -148,3 +148,14 @@ main {
     font-size: 1.4rem;
     line-height: 1.5rem;
 }
+
+/* table */
+
+.container-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: 1px solid black;
+    width: 50vw;
+    align-items: center;
+}
